@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/resource"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="@string/water_resource_name" />
+
+    <EditText
+        android:id="@+id/loction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="@string/location" />
+
+    <EditText
+        android:id="@+id/type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="@string/type" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="100sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/rounded"
+        android:layout_margin="5sp"
+        android:textColor="@color/white"
+        android:text="@string/add" />
+
+
+
+    <TableLayout
+        android:id="@+id/table"
+        android:layout_width="342dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="247dp">
+
+        <TableRow
+            android:background="@color/purple_200">
+fgfg            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="100dp"
+                android:text="@string/name"
+                android:textSize="14sp"
+                android:padding="10sp"
+
+
+
+                />
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="100dp"
+                android:text="@string/location_col"
+                android:textSize="14sp"
+                android:padding="10sp"
+
+
+
+
+             />
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="100dp"
+                android:text="@string/type_col"
+
+                android:textSize="14sp"
+                android:padding="10sp"
+
+
+
+                />
+
+
+        </TableRow>
+
+    </TableLayout>
+</LinearLayout>

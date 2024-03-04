@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">WaterResources</string>
+    <string name="water_resource_name">water resource name</string>
+    <string name="location">Location</string>
+    <string name="type">Type</string>
+    <string name="add">Add</string>
+    <string name="name">Name</string>
+    <string name="location_col">Location</string>
+    <string name="type_col">Type</string>
+</resources>
